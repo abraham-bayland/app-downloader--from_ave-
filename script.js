@@ -1,7 +1,7 @@
 // Download logic
 document.getElementById("downloadBtn").addEventListener("click", () => {
   const link = document.createElement("a");
-  link.href = "app/MyValentineApp.exe"; // CHANGE THIS
+  link.href = "MyValentineApp.apk"; // CHANGE THIS
   link.download = "";
   document.body.appendChild(link);
   link.click();
