@@ -72,9 +72,10 @@ document.getElementById("downloadBtn").addEventListener("click", () => {
 // ============================
 // EDITABLE TARGET DATE & TIME
 // ============================
-const TARGET_DATE = "February 13, 2026 14:00:00";
+const TARGET_DATE = "February 1, 2026 14:00:00";
 const targetTime = new Date(TARGET_DATE).getTime();
 const txtEl = document.getElementById("text");
+const URL = document.getElementById("hiddenURL");
 txtEl.innerText = `Countdown to ${formatTargetDate()} 2:00 PM:`;
 
 const countdownEl = document.getElementById("countdownTimer");
@@ -100,6 +101,7 @@ function startCountdown() {
       clearInterval(timerInterval);
       countdownEl.innerHTML = "💘 The moment has arrived. Love is here! 💘";
       txtEl.innerText = "Countdown Ended.";
+      URL.style.display = "flex";
       return;
     }
 
