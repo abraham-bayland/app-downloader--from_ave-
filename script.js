@@ -72,7 +72,7 @@ document.getElementById("downloadBtn").addEventListener("click", () => {
 // ============================
 // EDITABLE TARGET DATE & TIME
 // ============================
-const TARGET_DATE = "February 1, 2026 14:00:00";
+const TARGET_DATE = "February 13, 2026 14:00:00";
 const targetTime = new Date(TARGET_DATE).getTime();
 const txtEl = document.getElementById("text");
 const URL = document.getElementById("hiddenURL");
