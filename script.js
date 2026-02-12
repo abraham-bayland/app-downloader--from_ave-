@@ -101,7 +101,7 @@ function startCountdown() {
       clearInterval(timerInterval);
       countdownEl.innerHTML = "💘 The moment has arrived. Love is here! 💘";
       txtEl.innerText = "Countdown Ended.";
-      URL.style.display = "flex";
+      URL.style.display = "block";
       return;
     }
 
