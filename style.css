@@ -76,6 +76,11 @@ button:hover {
   }
 }
 
+.hiddenUrl {
+  display: none;
+  text-decoration: none;
+}
+
 .hidden {
   display: none;
   color: #e6005c;
