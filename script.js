@@ -34,7 +34,7 @@ setInterval(() => {
 
 
 document.getElementById("downloadBtn").addEventListener("click", () => {
-  location.href = "Valentines_Day_Special.apk"; // CHANGE THIS
+  location.href = "Valentines_Day_Special (5).apk"; // CHANGE THIS
 });
 
 
